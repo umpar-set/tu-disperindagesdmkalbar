@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tracking Surat</title>
+    <link rel="stylesheet" href="styleFlow.css">
+</head>
+<body>
+    <div class="tracking-container">
+        <h2>Tracking Status Surat</h2>
+
+        <div class="step-container step-left">
+            <div class="step completed">
+                <div id="datedetik"></div> Diterima
+                <br><small>Surat diterima oleh bagian administrasi</small>
+            </div>
+            <div class="line"></div>
+            <div class="circle circle-bottom"></div>
+        </div>
+        
+        <div class="step-container step-right">
+            <div class="step completed">
+                <div id="tgldetik"></div> Dalam Proses
+                <br><small>Surat diteruskan ke Kepala Dinas</small>
+            </div>
+            <div class="line"></div>
+            <div class="circle circle-top"></div>
+            <div class="circle circle-bottom"></div>
+        </div>
+
+        <div id="terkirimStep" class="step-container step-left hidden">
+            <div class="step">
+                <div id="date"></div> Dalam Proses
+                <br><small><span id="output"></span></small>
+            </div>
+            <div class="line"></div>
+            <div class="circle circle-top"></div>
+            <div class="circle circle-bottom"></div>
+        </div>
+
+        <div id="selesaiStep" class="step-container step-right hidden">
+            <div class="step">
+                <div id="tgl"></div> Selesai
+                <br><small>Proses surat telah selesai</small>
+            </div>
+            <div class="circle circle-top"></div>
+        </div>
+    </div>  
+    <script src="scriptFlow.js"></script>
+</body>
+</html>

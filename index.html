@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="src/11683680803.png" type="image/x-icon">
+</head>
+<body>
+    <div class="spinner" id="spinner" style="display: none;">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <header>
+        <h1>Sistem Manajemen Surat</h1>
+    </header>
+
+    <nav>
+        <a href="Tracker.html">Tracking Surat</a>
+        <a href="#" onclick="openModal()">Input dan Edit Surat</a>
+    </nav>
+
+    <footer>
+        &copy; 2024 Sistem Tracking Surat. All Rights Reserved.
+    </footer>
+
+    <div class="modal" id="passwordModal">
+        <div class="modal-content">
+            <h2>Masukkan Password</h2>
+            <p>Harap masukkan password untuk melanjutkan.</p>
+            <input type="password" id="passwordInput" placeholder="Masukkan password">
+            <div id="errorMessage" class="error-message"></div>
+            <div class="modal-buttons">
+                <button onclick="validatePassword()">Submit</button>
+                <button onclick="closeModal()">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="scriptSpinner.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
