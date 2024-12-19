@@ -1,6 +1,6 @@
 let correctPassword = ""; 
 function fetchPassword() {
-    const url = "https://script.google.com/macros/s/AKfycbz_Wq2WxZmNbhH8jOTfD7Z8ARnlSHQhfyQu5ss-qHlT/dev";
+    const url = "https://script.google.com/macros/s/AKfycbx3KTI8IOKuCqtGsvk8zAwnYipGX1LmcE0J3_xKlg9sa_n4ox7pE9MXFHUruxbLOVKhVg/exec";
 
     fetch(url)
         .then((response) => response.json())
