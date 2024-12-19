@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $("#example").DataTable({
-        ajax: "https://script.google.com/macros/s/AKfycbx3KTI8IOKuCqtGsvk8zAwnYipGX1LmcE0J3_xKlg9sa_n4ox7pE9MXFHUruxbLOVKhVg/exec",
+        ajax: "https://script.google.com/macros/s/AKfycbxxgDICneGpOASFff3wzgg8x6_GdCPfyDFklxLRcu27oyy5MEPM9OcHeKmAvQlB4C074A/exec",
         columns: [
             { title: "NOMOR", data: "NOMOR" },
             { title: "ALAMAT PENGIRIM", data: "ALAMAT PENGIRIM" },
