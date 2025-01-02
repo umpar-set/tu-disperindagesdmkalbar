@@ -33,7 +33,7 @@ function validatePassword() {
 }
 
 function showHide() {
-  var inputan = document.getElementById("passwordKu");
+  var inputan = document.getElementById("passwordInput");
   if (inputan.type === "password") {
     inputan.type = "text";
   } else {
